@@ -9,7 +9,7 @@ function About () {
                <figure>
                     <img src={melomamamabio} alt="" />
                    <figcaption>
-                        Melo Mama with one of her children.
+                        The Melo Mama with one of her children.
                    </figcaption>
                </figure>
            </section>
