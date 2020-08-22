@@ -1,9 +1,9 @@
 /* BODY */
 * {
   /* font-family: 'Montserrat', sans-serif; */
-  /* font-family: 'Playfair Display', serif; */
+  font-family: 'Playfair Display', serif;
   /* font-family: 'Poppins', sans-serif; */
-  font-family: 'Quicksand', sans-serif;
+  /* font-family: 'Quicksand', sans-serif; */
   /* font-family: 'Raleway', sans-serif; */
   text-shadow: black 1px 1px 1px 1px;
   
@@ -159,6 +159,8 @@ img {
   display: block;
   color: #922D50;
   text-shadow: black 1px 1px 1px;
+  font-size: 40px;
+  text-align: center;
 }
 .about img {
   width: 400px;
