@@ -92,6 +92,7 @@ img {
 .events {
   grid-area: events;
   background-color: #EAD7D1;
+  border-radius: 5px;
   padding: 10px;
 }
 .events img {
