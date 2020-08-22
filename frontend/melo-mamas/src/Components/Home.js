@@ -62,7 +62,7 @@ function Home () {
         <main className="home">
             <section className="welcome">
                 <div className="welcome-child">
-                    <h1>Melo Mamas</h1>
+                    <h1 className="title">Melo Mamas</h1>
                     <h2>Lovingly and Patiently Supporting Women and Families through Pregnancy and Postpartum is What I Do</h2>
                     <h3>As your Doula, I will work by your side as you prepare to give birth; present in each moment with a spirit of love and compassion. Whether you are interested in a home lactation consult or would like to work with me as your Doula, I’ll provide the emotional, educational and physical support you need not only during labor, but throughout your pregnancy and postpartum as well. We are a team and I've got your back.</h3>
                     <Slideshow />
@@ -116,7 +116,7 @@ function Home () {
             </section>
 
             <section className="events">
-                <h1>Events</h1>
+                <h1 className="title">Events</h1>
                 <article>
                     <figure>
                     <img src={babywrap} alt="" />
