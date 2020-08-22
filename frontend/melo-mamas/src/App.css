@@ -78,6 +78,9 @@ img {
   grid-area: welcome;
   padding: 10px;
 }
+.welcome-child {
+  margin-bottom: 20px;
+}
 .slide-container {
   width: 800px;
 }
