@@ -71,7 +71,5 @@
 ## Installation Instructions:
 
 ## Unsolved Problems:
+* Netlify won't deploy
 
-# melo-mamas
-# the-melo-mama
-# the-melo-mama
