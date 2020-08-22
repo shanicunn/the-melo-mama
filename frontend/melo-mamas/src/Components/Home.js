@@ -27,31 +27,31 @@ function Home () {
                         {/* style={{'backgroundImage': `url(${slideImages[0]})`}} */}
                       
                              <img src={slideImages[0]} alt="" />
-                             <span>Playing with infant</span>
+                             {/* <span>Playing with infant</span> */}
                          
                      </div>
                      <div className="each-slide">
                          
                             <img src={slideImages[1]} alt="" />
-                            <span>New mom holding baby</span>
+                            {/* <span>New mom holding baby</span> */}
                          
                      </div>
                      <div className="each-slide">
                          
                             <img src={slideImages[2]} alt="" />
-                            <span>Baby sleeping in baby wrap</span>
+                            {/* <span>Baby sleeping in baby wrap</span> */}
                          
                      </div>
                      <div className="each-slide">
                          
                             <img src={slideImages[3]} alt="" />
-                            <span>Family walking the beach</span>
+                            {/* <span>Family walking the beach</span> */}
                          
                      </div>
                      <div className="each-slide">
                          
                          <img src={slideImages[4]} alt="" />
-                             <span>Baby breastfeeding</span>
+                             {/* <span>Baby breastfeeding</span> */}
                          
                      </div>
                  </Slide>
