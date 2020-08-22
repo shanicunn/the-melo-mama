@@ -14,7 +14,7 @@ img {
 }
 /* HEADER */
 .header {
-  display: flex;
+  text-align: center;
 }
 .header img {
   width: 800px;
