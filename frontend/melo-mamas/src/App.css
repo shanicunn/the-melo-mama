@@ -80,11 +80,11 @@ img {
 }
 .slide-container {
   width: 800px;
-  
 }
 .each-slide {
   display: flex;
-  flex-direction: column;
+  align-content: center;
+  justify-content: center;
 }
 .each-slide img {
   box-shadow: none;
