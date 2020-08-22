@@ -67,7 +67,13 @@ img {
     color: #DBCDC6;
     text-shadow: black 1px 1px 1px 1px;
   }
-
+.footer a {
+  text-decoration: none;
+  color: white;
+}
+.footer a:hover {
+  color: #edffab;
+}
 /* HOME */
 .home {
   /* background-color: #edffab; */
