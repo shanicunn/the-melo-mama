@@ -63,9 +63,12 @@
     * font-family: 'Raleway', sans-serif;
 * APIS
     * Google Map 
+    * Stripe/Paypal/Square
+    * Google Calendar
     
 ## Live Site
 [Click Here for The Melo Mama - Heroku](https://the-melo-mama.herokuapp.com/)
+
 [Click Here for The Melo Mama - Netlify]()
 
 ## Installation Instructions:
