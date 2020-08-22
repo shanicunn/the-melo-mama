@@ -116,6 +116,7 @@ img {
   grid-template-areas: "doula wraps"
                         "placenta lactation";
   background-color: #EAD7D1;
+  border-radius: 5px;
   padding: 10px;
 }
 .welcome-services img {
