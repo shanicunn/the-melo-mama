@@ -1,0 +1,194 @@
+/* BODY */
+* {
+  /* font-family: 'Montserrat', sans-serif; */
+  /* font-family: 'Playfair Display', serif; */
+  /* font-family: 'Poppins', sans-serif; */
+  font-family: 'Quicksand', sans-serif;
+  /* font-family: 'Raleway', sans-serif; */
+  text-shadow: black 1px 1px 1px 1px;
+  
+}
+img {
+  box-shadow: black 1px 2px 6px 1px;
+  border-radius: 5px;
+}
+/* HEADER */
+.header {
+  display: flex;
+}
+.header img {
+  width: 800px;
+  align-content: center;
+  box-shadow: none;
+}
+
+/* NAV BAR */
+.navbar {
+  background-color: #DBCDC6;
+}
+.navbar ul {
+  display: flex;
+  list-style-type: none;
+}
+.navbar li {
+  padding: 20px;
+  align-content: center;
+  
+}
+.navLink {
+  text-decoration: none;
+  /* text-shadow: black 1px 1px 1px 1px; */
+
+}
+.navLink:link {
+  color: #817C7D;
+}
+.navLink:visited {
+  color: #922D50;
+}
+.navLink:hover {
+  color: #F29DBF;
+}
+.navLink:active {
+  color: #edffab;
+}
+
+/* FOOTER */
+  .footer {
+    background-color: #817C7D;
+    display: flex;
+  }
+  .footer h1 {
+    padding: 20px;
+    font-size: 12px;
+    color: #DBCDC6;
+    text-shadow: black 1px 1px 1px 1px;
+  }
+
+/* HOME */
+.home {
+  /* background-color: #edffab; */
+  padding: 20px;
+  display: grid;
+  grid-template: "welcome events";
+  grid-template-columns: 2fr 1fr;
+}
+.welcome {
+  grid-area: welcome;
+  padding: 10px;
+}
+.slide-container {
+  width: 800px;
+  
+}
+.each-slide {
+  display: flex;
+  flex-direction: column;
+}
+.each-slide img {
+  box-shadow: none;
+  height: 450px;
+}
+.events {
+  grid-area: events;
+  background-color: #EAD7D1;
+  padding: 10px;
+}
+.events img {
+  width: 400px;
+}
+.home h1 {
+  color: #F29DBF;
+}
+.home h2 {
+  color: #817C7D;
+}
+.home h3 {
+  color: #922D50;
+}
+.events article {
+  display: flex;
+  flex-direction: column;
+}
+.welcome-services {
+  display: grid;
+  grid-template-areas: "doula wraps"
+                        "placenta lactation";
+  background-color: #EAD7D1;
+  padding: 10px;
+}
+.welcome-services img {
+  width: 300px;
+}
+.welcome.doula {
+  grid-area: doula;
+  
+}
+.welcome.wraps {
+  grid-area: wraps;
+}
+.welcome.placenta {
+  grid-area: placenta;
+}
+.welcome.lactation {
+  grid-area: lactation;
+  
+}
+/* ABOUT ME */
+.about {
+  /* background-color: #edffab; */
+  display: grid;
+  grid-template-areas: "image bio";
+}
+.about h1 {
+  display: block;
+  color: #922D50;
+  text-shadow: black 1px 1px 1px;
+}
+.about img {
+  width: 400px;
+  border-radius: 5px;
+}
+.about p {
+  line-height: 25px;
+  padding: 15px;
+  color: #817C7D;
+  text-shadow: black 1px 1px 1px;
+}
+.image {
+  grid-area: image;
+}
+.bio {
+  grid-area: bio;
+
+}
+/* SERVICES */
+.services {
+  background-color: #edffab;
+}
+/* CONTACT */
+.contact {
+  background-color: #922D50;
+  display: flex;
+  padding: 20px;
+ 
+}
+.contact h1 {
+  color: #DBCDC6;
+  text-shadow: black 1px 1px 1px;
+}
+.contact input, textarea, button {
+  padding: 10px;
+  margin: 5px;
+}
+.contact input, textarea {
+  color: #922D50;
+}
+.contact form {
+  background-color: #F29DBF;
+  width: 800px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
