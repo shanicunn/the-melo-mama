@@ -217,6 +217,9 @@ table {
   color: #DBCDC6;
   text-shadow: black 1px 1px 1px;
 }
+.contact h2 {
+  color: #817C7D;
+}
 .contact input, textarea, button {
   padding: 10px;
   margin: 5px;
@@ -225,7 +228,7 @@ table {
   color: #922D50;
 }
 .contact form {
-  background-color: #F29DBF;
+  background-color: #922D50;
   width: 800px;
   margin: auto;
   padding: 20px;
