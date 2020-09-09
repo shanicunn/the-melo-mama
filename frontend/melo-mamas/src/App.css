@@ -31,6 +31,7 @@ img {
   list-style-type: none;
   justify-content: center;
   align-content: center;
+  margin: 0;
 }
 .navbar li {
   padding: 20px;
@@ -160,11 +161,12 @@ img {
   /* background-color: #edffab; */
   display: grid;
   grid-template-areas: "image bio";
+  width: 1000px;
 }
 .about h1 {
   display: block;
   color: #922D50;
-  text-shadow: black 1px 1px 1px;
+  text-shadow: #DBCDC6 1px 1px 1px;
   font-size: 40px;
   text-align: center;
 }
@@ -174,7 +176,7 @@ img {
 }
 .about p {
   line-height: 25px;
-  padding: 15px;
+  padding: 20px;
   color: #817C7D;
   /* text-shadow: black 1px 1px 1px; */
 }
@@ -187,11 +189,26 @@ img {
 }
 /* SERVICES */
 .services {
-  background-color: #edffab;
+  /*background-color: #edffab;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.services h1 {
+    font-size: 26px;
+}
+table {
+    border: #DBCDC6 1px black;
+    width: 500px;
+    background-color: #edffab;
+    padding: 5px;
+    margin: 10px;
+    box-shadow: #DBCDC6 1px 1px 4px 1px;
 }
 /* CONTACT */
 .contact {
-  background-color: #922D50;
+
   display: flex;
   padding: 20px;
  
