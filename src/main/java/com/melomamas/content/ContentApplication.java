@@ -1,13 +1,13 @@
-package com.melomamas.demo;
+package com.melomamas.content;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MeloMamasApplication {
+public class ContentApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MeloMamasApplication.class, args);
+		SpringApplication.run(ContentApplication.class, args);
 	}
 
 }

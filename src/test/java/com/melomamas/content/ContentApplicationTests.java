@@ -1,10 +1,10 @@
-package com.melomamas.demo;
+package com.melomamas.content;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class MeloMamasApplicationTests {
+class ContentApplicationTests {
 
 	@Test
 	void contextLoads() {
