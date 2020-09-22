@@ -11,6 +11,7 @@ import Services from './Components/Services';
 import Contact from './Components/Contact';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
+import Blog from './Components/Blog';
 import './App.css';
 
 
@@ -35,6 +36,9 @@ export default function App() {
               <Link className="navLink" to="/services">Services</Link>
             </li>
             <li>
+              <Link className="navLink" to="/blog">Blog</Link>
+            </li>
+            <li>
               <Link className="navLink" to="/contact">Contact</Link>
             </li>
           </ul>
@@ -48,6 +52,9 @@ export default function App() {
           </Route>
           <Route path="/services">
             <Services />
+          </Route>
+          <Route path="/blog">
+            <Blog />
           </Route>
           <Route path="/contact">
             <Contact />

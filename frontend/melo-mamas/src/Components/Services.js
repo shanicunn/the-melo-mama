@@ -1,4 +1,5 @@
 import React from 'react';
+import shutterMom1 from '../assets/images/shutterstock/shutterstock_1639199488.svg';
 
 class Services extends React.Component {
     constructor(props) {
@@ -22,10 +23,14 @@ class Services extends React.Component {
     }
     render() {
         return (
+
             <main className="services">
+            <img className="shutterMom1" src={shutterMom1} alt=""></img>
             {/* DOULA */}
-                <section>
-                    <table>
+            <div className="gridable">
+                <section className="gridTable">
+                    
+                    <table className="animate1">
                         <thead> <th><h1>Doula Services </h1></th> <th><h1>Starting Costs</h1></th></thead>
                         <tbody>
                             <tr>
@@ -45,7 +50,7 @@ class Services extends React.Component {
                 </section>
             {/* WRAP DEVICES */}
                 <section>
-                    <table>
+                    <table className="animate2">
                         <thead> <th><h1>Wrap Services </h1></th> <th><h1>Starting Costs</h1></th></thead>
                         <tbody>
                             <tr>
@@ -65,7 +70,7 @@ class Services extends React.Component {
                     </table>
                 </section>
             {/* PLACENTA */}
-                    <table>
+                    <table className="animate1">
                         <thead> <th><h1>Placenta Services </h1></th> <th><h1>Starting Costs</h1></th></thead>
                         <tbody>
                             <tr>
@@ -80,7 +85,7 @@ class Services extends React.Component {
                         </tbody>
                     </table>
             {/* LACTATION */}
-                    <table>
+                    <table className="animate2">
                         <thead>
                         <th><h1>Lactation Services </h1></th>
                         <th><h1>Starting Costs</h1></th>
@@ -101,6 +106,7 @@ class Services extends React.Component {
                         </tbody>
                     </table>
                     ***Domestic shipping costs start at $10
+                    </div>
             </main>
         )
     }

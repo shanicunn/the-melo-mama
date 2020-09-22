@@ -1,14 +1,10 @@
 import React from 'react';
+import shutterMom2 from '../assets/images/shutterstock/shutterstock_1607103790.svg';
 
 export default function Contact () {
     return (
         <main className="contact">
-            <section>
-                <h1>Melody Cunningham, The Melo Mama</h1>
-                <h2>Boston, MA</h2>
-                <h2>melomamasMA@gmail.com</h2>
-                <h2>617-955-5083</h2>
-            </section>
+            
             <form>
 
                 <h1>Initial Consultation</h1>
@@ -32,6 +28,13 @@ export default function Contact () {
                 <br />
                 <button type="submit">Submit</button>
             </form>
+            <section className="contact-info">
+                <h1>Melody Cunningham, The Melo Mama</h1>
+                <h2>Boston, MA</h2>
+                <h2>melomamasMA@gmail.com</h2>
+                <h2>617-955-5083</h2>
+                <img className="shutterMom2" src={shutterMom2} alt=""></img>
+            </section>
         </main>
     )
 }

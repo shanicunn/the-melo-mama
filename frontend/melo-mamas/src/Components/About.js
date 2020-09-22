@@ -4,10 +4,11 @@ import melomamamabio from '../assets/images/melomamabio.png';
 function About () {
     return (
        <main className="about">
+  
            <section className="image">
            <h1>About The Melo Mama</h1>
                <figure>
-                    <img src={melomamamabio} alt="" />
+                    <img id="bio-img" src={melomamamabio} alt="" />
                    <figcaption>
                         The Melo Mama with one of her children.
                    </figcaption>

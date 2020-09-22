@@ -3,7 +3,7 @@ import Slideshow from './Slideshow';
 import bellybind from '../assets/images/events/bellybind.jpg';
 import babywrap from '../assets/images/events/annie-spratt-2INKkSrEmc8-unsplash.jpg';
 import lactationCookie from '../assets/images/welcome-services/What-I-Ate-Wednesday-8-19.jpg';
-import placentaEncap from '../assets/images/welcome-services/placenta-encapsulation-750x375.jpg';
+import placentaEncap from '../assets/images/welcome-services/placentacaps.JPG';
 import blackDoula from '../assets/images/welcome-services/yejikim-doula.jpg';
 import babyOnBack from '../assets/images/welcome-services/barbara-alcada-w7aGkQO63q0-unsplash.jpg'; 
 
@@ -29,9 +29,9 @@ class Home extends React.Component {
              <main className="home">
                  <section className="welcome">
                      <div className="welcome-child">
-                         <h1 className="title">Melo Mamas</h1>
-                         <h2>Lovingly and Patiently Supporting Women and Families through Pregnancy and Postpartum is What I Do</h2>
-                         <h3>As your Doula, I will work by your side as you prepare to give birth; present in each moment with a spirit of love and compassion. Whether you are interested in a home lactation consult or would like to work with me as your Doula, I’ll provide the emotional, educational and physical support you need not only during labor, but throughout your pregnancy and postpartum as well. We are a team and I've got your back.</h3>
+                         <h1 className="title animate1">Melo Mamas</h1>
+                         <h2 className="animate2">Lovingly and Patiently Supporting Women and Families through Pregnancy and Postpartum is What I Do</h2>
+                         <h3 className="animate1">As your Doula, I will work by your side as you prepare to give birth; present in each moment with a spirit of love and compassion. Whether you are interested in a home lactation consult or would like to work with me as your Doula, I’ll provide the emotional, educational and physical support you need not only during labor, but throughout your pregnancy and postpartum as well. We are a team and I've got your back.</h3>
                          <Slideshow />
                      </div>
                      <div className="welcome-services">
@@ -83,32 +83,33 @@ class Home extends React.Component {
                  </section>
 
                  <section className="events">
-                     <h1 className="title">Events</h1>
+                    <div className="events-child">
+                    <h1 className="title">Events</h1>
                      <article>
                          <figure>
-                         <img src={babywrap} alt="" />
+                         <img className="eventImage1" src={babywrap} alt="" />
                              <figcaption>
-                                 <h1>{this.state.eventName1}</h1>
-                                 <h2>{this.state.eventDate1} <br />
+                                 <h1 className="eventTitle1">{this.state.eventName1}</h1>
+                                 <h2 className="eventDateAddress1">{this.state.eventDate1} <br />
                                  {this.state.eventAddress1}</h2>
-                                 <h3>{this.state.eventDescription1}</h3>
+                                 <h3 className="eventDescription1">{this.state.eventDescription1}</h3>
                              </figcaption>
                          </figure>
-                         <button>RSVP</button>
+                         <button className="rsvp rsvp1">RSVP</button>
                      </article>
 
                      <article>
 
                          <figure>
-                         <img src={bellybind} alt="" />
+                         <img className="eventImage2" src={bellybind} alt="" />
                              <figcaption>
-                                 <h1>{this.state.eventName2}</h1>
-                                 <h2>{this.state.eventDate2} <br />
+                                 <h1 className="eventTitle2">{this.state.eventName2}</h1>
+                                 <h2 className="eventDateAddress2">{this.state.eventDate2} <br />
                                  {this.state.eventAddress2}</h2>
-                                 <h3>{this.state.eventDescription2}</h3>
+                                 <h3 className="eventDescription2">{this.state.eventDescription2}</h3>
                              </figcaption>
                          </figure>
-                         <button>RSVP</button>
+                         <button className="rsvp rsvp2">RSVP</button>
                      </article>
 
                      {/* <article>
@@ -123,6 +124,8 @@ class Home extends React.Component {
                          <button>RSVP</button>
                      </article> */}
 
+                    </div>
+                    
                  </section>
              </main>
          )
